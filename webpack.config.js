@@ -11,8 +11,16 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.tsx?$/, loaders: ['ts-loader']}
+            {test: /\.tsx?$/, loaders: ['ts-loader']},
+            {test: /\.scss$/, loaders: ["style", "css", "sass"]}
         ]
     },
-    plugins: [new HtmlWebpackPlugin()]
+    plugins: [new HtmlWebpackPlugin()],
+    devServer: {
+       historyApiFallback: true,
+       inline: true,
+       progress: true,
+       contentBase: './app',
+       port: 8080,
+   },
 };

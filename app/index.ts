@@ -1,3 +1,12 @@
-var a:string = '123';
+import 'rxjs';
+import 'zone.js';
+import 'reflect-metadata';
 
-console.log(a);
+import './index.scss';
+
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app.module';
+
+const platform = platformBrowserDynamic();
+
+platform.bootstrapModule(AppModule);
