@@ -29,17 +29,23 @@
   "devDependencies": {
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.45",
+    "bootstrap": "^4.0.0-alpha.4",
     "concurrently": "^3.0.0",
     "css-loader": "^0.25.0",
+    "exports-loader": "^0.6.3",
     "html-webpack-plugin": "^2.24.1",
+    "imports-loader": "^0.6.5",
     "install": "^0.8.2",
     "lite-server": "^2.2.2",
     "node-sass": "^3.13.0",
     "npm": "^3.10.9",
+    "postcss-loader": "^1.2.0",
+    "resolve-url-loader": "^1.6.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "ts-loader": "^1.2.1",
     "typescript": "^2.0.3",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
